@@ -1,0 +1,145 @@
+<style type="text/css">
+
+/* Body color, size and inserting background image */
+
+body{
+	margin:0;
+	padding: 10px 10px;
+	background: white;
+	color: black;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Header color and size */
+h2   {
+	color: #283747;
+	font-size:25;
+	font-weight: 700;
+}
+
+/* division text format */
+div  {
+	
+	text-align: center;
+}
+
+/* Full-width inputs */
+
+.tab input[type=text], .tab input[type=password] {
+	
+	padding: 8px ;
+	margin: 8px auto;
+	display: inline-block;
+	border: 1px ;
+	text-align: left;
+	background: white;
+	
+	outline: none;
+	color: #080808;
+	border: 25px;
+	box-shadow: 1px 1px #888888;
+}
+
+.tab input[type=text]:focus, .tab input[type=password]:focus {
+	width: 150px;
+	border-color: #c78c58;
+}
+
+.tab input[type=submit] {
+	
+	padding: 8px ;
+	margin: 8px auto;
+	display: inline-block;
+	border: 1px solid ;
+	text-align: left;
+	background: none;
+	
+	outline: none;
+	color: #080808;
+	border: 25px;
+	box-shadow: 1px 1px #888888;
+	cursor: pointer;
+}
+
+.tab input[type=text]:hover, .tab input[type=password]:hover{
+
+	background: rgb(224, 241, 247);
+}
+/* form format setting #BB8FCE */
+
+form  {
+	
+	background: #AFD5D2 ;
+	position: absolute;
+	text-align:center;
+	width: 375px;
+	margin: 200px 400px;
+	border: 1px solid;
+  	padding: 10px;
+  	box-shadow: 5px 6px #888888;
+	transform: translate(-50%, -50%);
+}
+
+.form  {
+	
+	background: #AFD5D2 ;
+	position: absolute;
+	text-align:center;
+	width: 375px;
+	margin: 200px 400px;
+	border: 1px solid;
+  	padding: 10px;
+  	box-shadow: 5px 6px #888888;
+	transform: translate(-50%, -50%);
+}
+
+.container .error {
+	border: red;
+	font-size: 0.8rem;
+	margin: 5 0 0;
+	visibility: hidden;
+	transition: all 0.3s;
+}
+/* label formatting */	
+label {
+	color: #b38054;
+	font-size: 14px;
+}
+
+/* table formatting */
+
+table { 
+	
+	border: 0px;
+  	border-collapse: collapse;
+	text-align: left;
+	box-align: center;
+	
+}
+
+.tab td {
+	size: 30;
+	
+}
+
+.tab a
+{
+	align: left;
+	color: #21618C;
+}
+button:hover {
+	box-shadow: 2px 2px 3px ;
+  }
+  
+  button:active {
+	box-shadow: 1px 1px 3px ;
+  }
+
+  .container1 {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+  }
+
+</style>

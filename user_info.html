@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="login_style.css">
+        <meta charset="utf8">
+        <script type="text/javascript" src="login.js"></script>
+        <title>User Editor Page</title>
+    </head>
+    <body>
+        <div id="form" class="form">
+            <div class="container1">
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <table class="tab">
+                <th><td>&nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    <td>&nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    <td><button type="submit" 
+                        onclick="edit11()"
+                        id="edit1">Edit</button></td>
+                </th>
+                <tr><td></td>
+                    <td><h3>user information editor</h3></td>
+                    <td></td>
+                <tr><td>First Name:</td>                    
+                    <td><input type="text" 
+                        id="frst_id" 
+                        name="frst_id" 
+                        value="Priya" 
+                        placeholder="Enter name" 
+                        contenteditable="false"
+                        readonly
+                        style="background-color: rgb(224, 241, 247)"></td>
+                    <td></td>
+                </tr>
+                <tr><td>Last Name:</td>
+                    <td><input type="text" 
+                        id="last_id" 
+                        value="Sinha" 
+                        contenteditable="false"
+                        readonly
+                        style="background-color: rgb(224, 241, 247)"></td>
+                    <td></td>
+                </tr>
+                <tr><td>Phone Number:</td>
+                    <td><input id="phn_id"
+                        contenteditable="false"
+                        value="1234567890"
+                        readonly
+                        style="background-color: rgb(224, 241, 247)">  </td>
+                    <td></td>
+                </tr>
+                <tr><td>Address:</td>
+                    <td><input type="text" 
+                        id="add" 
+                        readonly
+                        contenteditable="false"
+                        style="background-color: rgb(224, 241, 247)">Bangalore </div> </td>
+                    <td></td>
+                </tr>
+                
+                <tr><td>Password:</td>
+                    <td><input type="password" 
+                        value="123456" 
+                        id="user_pwd"
+                        contenteditable="false"
+                        style="background-color: rgb(224, 241, 247)"
+                        readonly> </td>
+                    <td></td>
+                </tr>
+                <tr><td>Confirm Password:</td>
+                    <td><input type="password"
+                        value="123456" 
+                        id="cnf_pwd"
+                        contenteditable="false"
+                        readonly
+                        style="background-color: rgb(224, 241, 247)"> </td>
+                    <td></td>
+                </tr>
+                <tr><td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr><td></td>
+                    <td><button type="submit" onclick="save()" id="submit"> Save </button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>    
+        </div>
+    </body>
+</html>

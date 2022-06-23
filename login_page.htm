@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lan="en">
+	<head>
+		<link rel="stylesheet" href="login_style.css">
+		<meta charset="utf8">
+		<script type = "text/javascript" src="login.js"  > 
+		
+		</script>
+		<title>Login Page</title>
+	</head>
+	<body class="bg" >
+		<form action="account.htm" method="post" name="log" >
+			<div class="container">
+				<h2>Login Page</h2> <br/>
+				
+				<table  class="tab">
+					<tr>
+						<td> &nbsp<label for="uid" > <b> User Name: </b> </label>  </td>
+						<td> <input 
+							 type="text"
+							 placeholder="Enter Username" 
+							 onclick="validate()" 
+							 autocomplete="off" 
+							 id="uid"
+							 size="20"
+							 required="true"
+							 class="username">
+						</td>
+						<td> 
+							<small></small> 
+						</td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td> <span class="error" id="er1"> enter your name </span> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td> &nbsp<label for="pwd" > <b> Password: </b> </label>  </td>
+						<td> <input type="password" 
+							onclick="validate()" 
+							
+							placeholder="Enter Password"
+							id="pwd" 
+							size="15" 
+							required="true"
+							class="password">
+						</td>
+						<td>
+							<small></small> 
+						</td>
+					</tr>
+					<tr> 
+						<td> </td>
+						<td ><span class="error" id="er2" >enter your password </span></td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td> &nbsp &nbsp &nbsp &nbsp<button type="submit" 
+							id="submit" 
+							onclick="" 
+							class="login"
+							disabled>Login</button>  
+						</td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td> <span><input type="checkbox" 
+							name="remember" >Remember me </span> 
+						</td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					
+					
+					<tr>
+						<td> &nbsp<a href="C:/Users/priya/Documents/login/forgot.htm" 
+							class="forgot_pwd_clas" 
+							target="_self">forgot password?</a>  </td>
+						<td>  </td>	
+						<span>
+						<td> <a href="C:/Users/priya/Documents/login/registration.htm" 
+							class="sign_up"  
+							target="_self">new user?</a> 
+						</span> </td>
+					</tr>
+				</table>
+			</div>
+			
+		</form>	
+		
+	</body>
+</html>
+
